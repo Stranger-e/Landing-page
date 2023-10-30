@@ -1,0 +1,27 @@
+
+body {
+    background-color: #1f2937;
+    color: white;
+}
+
+.pic {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
