@@ -4,15 +4,25 @@ body {
     color: white;
 }
 
+.pic1 {
+    margin-right: 40px;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
 .pic {
-    width: 400px;
+    width: 300px;
     height: 300px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
     width: 100%;
     height: auto;
+    margin-right: 40px;
 }
 
 header {
@@ -23,5 +33,61 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
+    padding: 18px;
 
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9FAF8;
+    margin-left: 40px;
+}
+
+.info {
+    display: flex;
+    background-color: white;
+    padding: 12px;
+    margin: 5px;
+}
+
+.text {
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9FAF8;
+}
+
+button {
+    width: 70px;
+    background-color: #3882F6;
+    color: white;
 }
