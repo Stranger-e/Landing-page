@@ -35,13 +35,12 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 18px;
-
 }
 
 .logo {
     font-size: 24px;
     color: #f9FAF8;
-    margin-left: 40px;
+    margin-left: 66px;
 }
 
 .info {
@@ -67,14 +66,15 @@ ul {
     display: flex;
     justify-content: space-around;
     gap: 30px;
+    margin-right: 40px;
 }
 
 .intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
-    gap: 400px;
+    margin: 0 40px;
 }
 .right {
     display: flex;
@@ -90,13 +90,15 @@ h2 {
     color: #f9FAF8;
 }
 
-button {
-    width: 70px;
+.up {
+    height: 30px;
     background-color: #3882F6;
     color: white;
     text-align: center;
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid #1f2937;
+    width: 90px;
+    border-radius: 9px;
 }
 
 .head {
@@ -125,7 +127,8 @@ button {
 }
 
 .text {
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .end {
@@ -138,12 +141,23 @@ button {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    border-radius: 9px;
+}
+
+.im {
+    border: 3px solid blue;
+    border-radius: 9px;
+    width: 96%;
 }
 
 .sign {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
     border-radius: 5px;
     height: 25px;
-    justify-self: center;
+    align-self: center;
+    border: 2px solid white;
 }
 
 footer {
